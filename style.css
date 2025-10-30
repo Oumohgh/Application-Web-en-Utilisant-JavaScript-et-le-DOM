@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bghero
+{
+    background-image: url(assets/images/background_trophy.png);
+}
+
+.jouer{
+    background-color: 8F04FD;
+}
