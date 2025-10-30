@@ -41,5 +41,5 @@ getSelection
       }
     }
 
-    alert("Vous avez répondu correctement a " + bonnesReponses + " question(s) sur " + QUESTIONS.length + ".");//avec 
+    alert("Vous avez répondu correctement a " + bonnesReponses + " question(s) sur " + QUESTIONS.length + ".");//avec  oko button de alert 
   }
