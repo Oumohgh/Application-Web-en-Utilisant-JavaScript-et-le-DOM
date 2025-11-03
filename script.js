@@ -67,6 +67,7 @@ function enregistrerReponse() {
 
 // Bouton suivant
 document.getElementById("nextBtn").addEventListener("click", function() {
+  document.getElementById("prevBtn").style.display="block"
   enregistrerReponse();
   if (questionActuelle < questions.length - 1) {
     questionActuelle++;
@@ -99,9 +100,9 @@ document.getElementById("submitBtn").addEventListener("click", function() {
   document.getElementById("score").textContent = "Votre score : " + score + " / " + (questions.length * 2);
 
   if (score >= 6) {
-    document.getElementById("feedback").textContent = "Bravo !";
+    document.getElementById("feedback").textContent = "Bravo ";
   } else {
-    document.getElementById("feedback").textContent = "Continuez a vous entrainerer";
+    document.getElementById("feedback").textContent = "Continuez a vous entraîner";
   }
 });
 

@@ -5,6 +5,7 @@
 .bghero
 {
     background-image: url(assets/images/background_trophy.png);
+    background-image: 50%;
 }
 
 .jouer{
